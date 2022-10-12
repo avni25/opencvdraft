@@ -31,6 +31,8 @@ def rescaleFrame(frame, scale=1.0):
     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
 
+
+
 display_video("videos/taylan1.mp4", "qweqwe")
 display_img("photos/cat.jpg", "Mycat")
 
