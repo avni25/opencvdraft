@@ -17,8 +17,9 @@ cv.imshow("rectangle", blank)
 cv.circle(blank, (blank.shape[1]//2, blank.shape[0]//2), 40,(0,0,255), thickness=3)
 cv.imshow("circle", blank)
 
-
-
+# write text
+cv.putText(blank, "Hello world", (255, 255), cv.FONT_HERSHEY_COMPLEX, 1.0, (0,255,0),2)
+cv.imshow("my text", blank)
 
 
 
